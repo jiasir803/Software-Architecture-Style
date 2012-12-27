@@ -16,12 +16,10 @@ public class Event {
     public static final int OUTPUT=4;
 
     private int source;
-    private ArrayList<String> textLine;
     private ArrayList<ArrayList<String>> textLines;
 
-    public Event(int sourceType, ArrayList<String> textLine, ArrayList<ArrayList<String>> textLines) {
+    public Event(int sourceType, ArrayList<ArrayList<String>> textLines) {
         this.source=sourceType;
-        this.textLine = textLine;
         this.textLines = textLines;
     }
 
@@ -29,9 +27,6 @@ public class Event {
         return source;
     }
 
-    public ArrayList<String> getTextLine() {
-        return textLine;
-    }
 
     public ArrayList<ArrayList<String>> getTextLines() {
         return textLines;

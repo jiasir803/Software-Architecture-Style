@@ -19,7 +19,7 @@ public class EventManager {
 
     public static EventManager getInstance(){
         if(instance==null){
-            return new EventManager();
+            return instance=new EventManager();
         }
         else{
             return instance;
@@ -27,30 +27,36 @@ public class EventManager {
     }
 
     public void addInputListener(InputListener listener){
+        System.out.println("addInputListener");
         inputListeners.add(listener);
     }
 
     public void addShiftListeners(ShiftListener listener){
+        System.out.println("addShiftListener");
         shiftListeners.add(listener);
     }
 
     public void addSortListeners(SortListener listener){
+        System.out.println("addSortListener");
         sortListeners.add(listener);
     }
 
     public void notifyEvent(Event event){
         switch (event.getSource()){
             case Event.INPUT:
+                System.out.println("input event throw");
                 for (InputListener listener:inputListeners){
                     listener.perform(event);
                 }
                 break;
             case Event.CIRCULAR_SHIFTER:
+                System.out.println("circular shifter throw");
                 for (ShiftListener listener:shiftListeners){
                     listener.perform(event);
                 }
                 break;
             case Event.ALPHABETIZER:
+                System.out.println("alphabetizer throw");
                 for (SortListener listener:sortListeners){
                     listener.perform(event);
                 }

@@ -7,6 +7,6 @@ package kwic;
  * Time: 下午9:53
  * To change this template use File | Settings | File Templates.
  */
-public interface ShiftListener extends Listener{
+public interface ShiftListener{
     public void perform(Event event);
 }
