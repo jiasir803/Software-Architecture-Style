@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee4ad7c-ff6d-4ef6-8c70-d60ec859ed16" name="Default" comment="" />
-    <ignored path="Implicit Invocation Solution.iws" />
+    <list default="true" id="54a9144c-6efd-4213-b6f5-b12debef6990" name="Default" comment="" />
+    <ignored path="Pipe-and-Filter Solution.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/kwic/Main.java" line="11" class="kwic.Main" package="kwic">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -54,17 +69,17 @@
     <ui_properties />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="Implicit Invocation Solution" />
+    <favorites_list name="Pipe-and-Filter Solution" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Inputer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Inputer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kwic/Inputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8232848">
+            <state line="14" column="32" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#607#626#0" expanded="true" />
+                <element signature="e#824#832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,10 +88,10 @@
       <file leaf-file-name="CircularShifter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kwic/CircularShifter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="25" column="28" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#494#513#0" expanded="true" />
-                <element signature="e#713#721#0" expanded="true" />
+                <element signature="e#376#395#0" expanded="true" />
+                <element signature="e#593#601#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +100,7 @@
       <file leaf-file-name="Alphabetizer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kwic/Alphabetizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="269" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +109,7 @@
       <file leaf-file-name="Outputer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kwic/Outputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="57" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,60 +117,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TextLinePipe.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kwic/TextLinePipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="35" selection-start="207" selection-end="207" vertical-scroll-proportion="0.26608697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kwic/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="55" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+            <state line="16" column="10" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kwic/EventManager.java">
+      <file leaf-file-name="Pipe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kwic/Pipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="12" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
+            <state line="19" column="19" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kwic/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="16" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#293#308#0" expanded="true" />
-                <element signature="e#377#392#0" expanded="true" />
-                <element signature="e#459#473#0" expanded="true" />
+                <element signature="e#320#339#0" expanded="true" />
+                <element signature="e#409#428#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kwic/InputListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiftListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kwic/ShiftListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kwic/SortListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kwic/Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -170,17 +166,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/kwic/Listener.java" />
-        <option value="$PROJECT_DIR$/src/kwic/SortListener.java" />
-        <option value="$PROJECT_DIR$/src/kwic/InputListener.java" />
-        <option value="$PROJECT_DIR$/src/kwic/Event.java" />
-        <option value="$PROJECT_DIR$/src/kwic/Inputer.java" />
-        <option value="$PROJECT_DIR$/src/kwic/Main.java" />
-        <option value="$PROJECT_DIR$/src/kwic/CircularShifter.java" />
+        <option value="$PROJECT_DIR$/src/kwic/Pipe.java" />
         <option value="$PROJECT_DIR$/src/kwic/Alphabetizer.java" />
+        <option value="$PROJECT_DIR$/src/kwic/CircularShifter.java" />
         <option value="$PROJECT_DIR$/src/kwic/Outputer.java" />
-        <option value="$PROJECT_DIR$/src/kwic/ShiftListener.java" />
-        <option value="$PROJECT_DIR$/src/kwic/EventManager.java" />
+        <option value="$PROJECT_DIR$/src/kwic/TextLinePipe.java" />
+        <option value="$PROJECT_DIR$/src/kwic/Inputer.java" />
+        <option value="$PROJECT_DIR$/src/kwic/Filter.java" />
+        <option value="$PROJECT_DIR$/src/kwic/Main.java" />
       </list>
     </option>
   </component>
@@ -218,41 +211,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Implicit Invocation Solution" />
+              <option name="myItemId" value="Pipe-and-Filter Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Implicit Invocation Solution" />
+              <option name="myItemId" value="Pipe-and-Filter Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Implicit Invocation Solution" />
+              <option name="myItemId" value="Pipe-and-Filter Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Implicit Invocation Solution" />
+              <option name="myItemId" value="Pipe-and-Filter Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Implicit Invocation Solution" />
+              <option name="myItemId" value="Pipe-and-Filter Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -267,12 +250,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
@@ -298,7 +282,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Implicit Invocation Solution" />
+      <module name="Pipe-and-Filter Solution" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -441,9 +425,8 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eee4ad7c-ff6d-4ef6-8c70-d60ec859ed16" name="Default" comment="" />
-      <created>1356615778145</created>
-      <updated>1356615778145</updated>
+      <created>1356622539953</created>
+      <updated>1356622539953</updated>
     </task>
     <servers />
   </component>
@@ -451,29 +434,29 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31350482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21178344" sideWeight="0.84887457" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1511254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -535,83 +518,70 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/kwic/SortListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/InputListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/Outputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="57" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/ShiftListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kwic/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+        <state line="16" column="10" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/Alphabetizer.java">
+    <entry file="file://$PROJECT_DIR$/src/kwic/Pipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+        <state line="19" column="19" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kwic/CircularShifter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="25" column="28" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#494#513#0" expanded="true" />
-            <element signature="e#713#721#0" expanded="true" />
+            <element signature="e#376#395#0" expanded="true" />
+            <element signature="e#593#601#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/Event.java">
+    <entry file="file://$PROJECT_DIR$/src/kwic/Alphabetizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+        <state line="14" column="39" selection-start="269" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kwic/EventManager.java">
+    <entry file="file://$PROJECT_DIR$/src/kwic/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="12" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0">
+        <state line="21" column="16" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#293#308#0" expanded="true" />
-            <element signature="e#377#392#0" expanded="true" />
-            <element signature="e#459#473#0" expanded="true" />
+            <element signature="e#320#339#0" expanded="true" />
+            <element signature="e#409#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kwic/Inputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8232848">
+        <state line="14" column="32" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#607#626#0" expanded="true" />
+            <element signature="e#824#832#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kwic/Outputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kwic/TextLinePipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="207" selection-end="207" vertical-scroll-proportion="0.26608697">
+          <folding />
         </state>
       </provider>
     </entry>
