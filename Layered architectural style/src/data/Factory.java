@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+
 /**
  * Created with IntelliJ IDEA.
  * User: nekosama
@@ -25,7 +26,6 @@ public class Factory {
     public static Connection getConnection()
     {
         try {
-
             Class.forName(DBDRIVER);
             connection = DriverManager.getConnection(DBURL, USER, PASS);
         }catch (SQLException e) {
@@ -52,5 +52,4 @@ public class Factory {
             }
         }
     }
-
 }

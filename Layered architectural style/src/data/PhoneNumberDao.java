@@ -17,11 +17,11 @@ public class PhoneNumberDao {
     public void insert(PhoneNumberBean phoneNumberBean){
         Connection connection=Factory.getConnection();
         try {
-            PreparedStatement stmt=connection.prepareStatement("insert into phoneNumber(phone_number,first_name,last_name) values(?,?,?)");
+            PreparedStatement stmt=connection.prepareStatement("insert into phonenumber(phone_number,first_name,last_name) values(?,?,?)");
             stmt.setString(1,phoneNumberBean.getPhoneNumber());
             stmt.setString(2,phoneNumberBean.getFirstName());
             stmt.setString(3,phoneNumberBean.getLastName());
-            stmt.executeQuery();
+            stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -31,9 +31,9 @@ public class PhoneNumberDao {
     public void delete(PhoneNumberBean phoneNumberBean){
         Connection connection=Factory.getConnection();
         try {
-            PreparedStatement stmt=connection.prepareStatement("delete from phoneNumber where id=?");
+            PreparedStatement stmt=connection.prepareStatement("delete from phonenumber where id=?");
             stmt.setInt(1,phoneNumberBean.getId());
-            stmt.executeQuery();
+            stmt.execute();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -43,10 +43,10 @@ public class PhoneNumberDao {
     public void update(PhoneNumberBean phoneNumberBean){
         Connection connection=Factory.getConnection();
         try {
-            PreparedStatement stmt=connection.prepareStatement("update phoneNumber set phone_number=? where id=?");
+            PreparedStatement stmt=connection.prepareStatement("update phonenumber set phone_number=? where id=?");
             stmt.setString(1,phoneNumberBean.getPhoneNumber());
             stmt.setInt(2,phoneNumberBean.getId());
-            stmt.executeQuery();
+            stmt.execute();
         } catch (SQLException e) {//To change body of catch statement use File | Settings | File Templates.
         }
         Factory.closeConnection(connection);
@@ -56,7 +56,7 @@ public class PhoneNumberDao {
         Connection connection=Factory.getConnection();
         List<PhoneNumberBean> list=new ArrayList<PhoneNumberBean>();
         try {
-            PreparedStatement stmt=connection.prepareStatement("select * from phoneNumber");
+            PreparedStatement stmt=connection.prepareStatement("select * from phonenumber");
             ResultSet resultSet=stmt.executeQuery();
             while (resultSet.next()){
                 PhoneNumberBean phoneNumberBean=new PhoneNumberBean();
@@ -78,7 +78,7 @@ public class PhoneNumberDao {
         Connection connection=Factory.getConnection();
         List<PhoneNumberBean> list=new ArrayList<PhoneNumberBean>();
         try {
-            PreparedStatement stmt=connection.prepareStatement("select * from phoneNumber where phone_number=? and first_name=? and last_name=?");
+            PreparedStatement stmt=connection.prepareStatement("select * from phonenumber where phone_number=? and first_name=? and last_name=?");
             stmt.setString(1,phoneNumber);
             stmt.setString(2,firstName);
             stmt.setString(3,lastName);
@@ -106,7 +106,7 @@ public class PhoneNumberDao {
         Connection connection=Factory.getConnection();
         List<PhoneNumberBean> list=new ArrayList<PhoneNumberBean>();
         try {
-            PreparedStatement stmt=connection.prepareStatement("select * from phoneNumber where first_name=? and last_name=?");
+            PreparedStatement stmt=connection.prepareStatement("select * from phonenumber where first_name=? and last_name=?");
             stmt.setString(1,firstName);
             stmt.setString(2,lastName);
             ResultSet resultSet=stmt.executeQuery();
